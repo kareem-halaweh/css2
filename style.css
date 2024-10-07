@@ -1,27 +1,29 @@
 main{
     position: relativeS;
+    padding: auto;
+    margin: auto;
 }
-nav{
-    position: sticky;
-    top: 0;
+
+header , nav{
+    
     text-align: center;
-    background-color: #c0c0c0;
-    margin: 10px auto;
-}
-header{
-    position: sticky;
+    position: fixed;
     top: 0;
  background-color: #f0f0f0;
  padding: 10px;
- z-index: 4;
+ width: 100%;
+ z-index: 11;
+ position: relative;
 }
 article{
+    position: absolute;
     width: 60% ;
     margin: 20px auto;
     background-color: #e0e0e0;
     padding: 15px;
-    
-    position: absolute;
+    width: 40%;
+
+   
 }
 
 aside{
@@ -36,8 +38,10 @@ aside{
 }
 
 footer{
+    text-align: center;
     position: fixed;
     bottom: 0;
-    background-color: #c0c0c0;
+    background-color: hsl(0, 0%, 75%);
     padding: 10px;
+    width: 100%;
 }
