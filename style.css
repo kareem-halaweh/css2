@@ -1,0 +1,43 @@
+main{
+    position: relativeS;
+}
+nav{
+    position: sticky;
+    top: 0;
+    text-align: center;
+    background-color: #c0c0c0;
+    margin: 10px auto;
+}
+header{
+    position: sticky;
+    top: 0;
+ background-color: #f0f0f0;
+ padding: 10px;
+ z-index: 4;
+}
+article{
+    width: 60% ;
+    margin: 20px auto;
+    background-color: #e0e0e0;
+    padding: 15px;
+    
+    position: absolute;
+}
+
+aside{
+    width: 30%;
+
+    margin: 20px auto;
+    background-color: #d0d0d0;
+    padding: 15px;
+
+    position: absolute;
+    right: 0;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: #c0c0c0;
+    padding: 10px;
+}
